@@ -502,6 +502,10 @@ public class QueryBuilder {
         reset();
         return true;
     }
-
+    
+    public SQLiteDatabase getDb(){
+        return _db;
+    }
+    
 
 }
